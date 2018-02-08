@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+h1,h2,h3,h4 {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* custom  */
+
+/* .main-content-header {
+    width:100%;
+    margin: 0;
+}
+.main-content-body {
+    padding: 5px 5px 10px 10px;
+}
+.main-content-footer {
+    padding: 15px;
+}
+.main-content-header {
+    padding: 5px 5px 5px 10px;
+}
+.main-content-body {
+    padding: 5px 5px 10px 10px;
+}
+.main-content-footer {
+    padding: 15px;
+} */
+
+.half-line {
+    display: block;
+    line-height: 7px;
+}
+
+.footer hr {
+    background-color: #aaa;
+}

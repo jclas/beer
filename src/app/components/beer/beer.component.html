@@ -1,0 +1,23 @@
+<a href='#'>&lt;&lt; Back</a><br />
+<br />
+<div class='rounded beer-box'>
+  <div class="row">
+    <div class='col-sm-2'>
+      <img src='{{beer.image_url}}' class='beer rounded' />
+    </div>
+    <div class='col-sm-10'>
+      <h2>{{beer.name}}</h2>
+      <div class='lead'>{{beer.tagline}}</div>
+      <br />
+      <div class="small">First Brewed: {{beer.first_brewed}}</div>
+      <div class="small">Percent Alcohol (ABV): {{beer.abv}}</div>
+      <br />
+      <div class="small">{{beer.description}}</div>
+      <br>
+      <h5>Food Pairings: </h5>
+      <span class='small' *ngFor="let food of beer.food_pairing; let isLast=last">
+        {{food}}{{isLast ? '' : ', '}}
+      </span>
+    </div>
+  </div>
+</div>

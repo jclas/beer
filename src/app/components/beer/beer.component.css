@@ -1,0 +1,10 @@
+.beer-box {
+    padding:15px;
+    min-height:150px;
+    background-color: #ddffdd;
+    border:3px solid rgb(135, 175, 127);
+}
+
+img.beer {
+    height:300px;
+}

@@ -1,0 +1,8 @@
+.beer-box {
+    cursor: pointer;
+    padding:10px;
+    margin: 1px 0px;
+    min-height:150px;
+    background-color: #ddffdd;
+    border:3px solid rgb(135, 175, 127);
+}
